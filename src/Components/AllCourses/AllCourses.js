@@ -18,6 +18,8 @@ const AllCourses = () => {
 
   return (
     <div className="main-container">
+
+      {/* -------All courses component  */}
       <div className="all-courses-container">
         {
           fakeData.map((data) =>(
@@ -28,8 +30,10 @@ const AllCourses = () => {
         ))
         }
       </div>
-
+     
+     {/* --------Cart component */}
       <div className="cart-container">
+ 
         <div className="addedCourseLen">
           <h5>Total added Course : {sendCourseToCart.length}</h5>
         </div>
@@ -39,7 +43,8 @@ const AllCourses = () => {
           <Cart addedCourse={addedCourse}></Cart>
         ))
         }
-
+        
+        {/* Total price here */}
         <div className="totalPrice justify-content-around bg-light">
           <h5>Total price : {totalPrice}$ </h5>
         </div>
