@@ -22,12 +22,7 @@ const AllCourses = () => {
       {/* -------All courses component  */}
       <div className="all-courses-container">
         {
-          fakeData.map((data) =>(
-            <SingleCourse
-             data={data} 
-             sendToCartFunc={sendToCartFunc}
-          ></SingleCourse>
-        ))
+          fakeData.map(data => <SingleCourse data={data} sendToCartFunc={sendToCartFunc}></SingleCourse>)
         }
       </div>
      
@@ -39,10 +34,8 @@ const AllCourses = () => {
         </div>
 
         {
-        sendCourseToCart.map((addedCourse) => (
-          <Cart addedCourse={addedCourse}></Cart>
-        ))
-        }
+          sendCourseToCart.map((addedCourse) => <Cart addedCourse={addedCourse}></Cart>)
+        }  
         
         {/* Total price here */}
         <div className="totalPrice justify-content-around bg-light">
@@ -52,5 +45,5 @@ const AllCourses = () => {
     </div>
   );
 };
-
-export default AllCourses;
+ 
+export default AllCourses; 
