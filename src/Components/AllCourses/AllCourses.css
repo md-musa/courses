@@ -1,0 +1,26 @@
+.main-container {
+  display: flex;
+}
+.all-courses-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: flex-end;
+
+  width: 70%;
+  box-shadow: 3px 32px 26px 11px whitesmoke;
+}
+.cart-container {
+  width: 35%;
+  height: 700px;
+  position: sticky;
+  top: 0;
+  margin: 9px 10px;
+  transition: all ease-in 0.5s;
+}
+.totalPrice {
+  text-align: right;
+  padding: 10px 30px;
+}

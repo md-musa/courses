@@ -1,0 +1,35 @@
+.cart-item {
+  display: flex;
+  width: 100%;
+  height: 90px;
+  margin: 10px 5px;
+  box-shadow: 2px 0px 11px 4px #efefef;
+  overflow: hidden;
+  border-radius: 5px;
+}
+.img {
+  height: 100%;
+  width: 30%;
+}
+.cart-img {
+  height: 100%;
+  width: 100%;
+}
+.course-information {
+  text-align: center;
+  margin: auto;
+  padding: 12px;
+  width: 50%;
+}
+.course-information p {
+  margin: 0;
+}
+.price {
+  height: 100%;
+  width: 20%;
+  margin: 0 auto;
+}
+.price h5 {
+  margin: 0;
+  margin-left: 10px;
+}

@@ -1,0 +1,21 @@
+.course-card {
+  width: 15rem;
+  background: #ffffff;
+  /* font-family: "Courier New", Courier, monospace; */
+  margin: 20px 15px;
+  box-shadow: 2px 0px 42px 6px #efefef;
+  overflow: hidden;
+  border-radius: 5px;
+}
+.information {
+  padding: 5px 5px 15px 5px;
+}
+.img-div {
+  height: 150px;
+  width: 100%;
+  object-fit: cover;
+  overflow: hidden;
+}
+.star {
+  font-size: 12px;
+}
